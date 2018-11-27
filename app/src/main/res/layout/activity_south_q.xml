@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SouthQ">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="28dp">
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="111dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.511"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.067"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="METRO MANILA SOUTH QUADRANT"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.454"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.333" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/sothfilinvest"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="203dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FILINVEST MTB TRAIL, Muntinlupa City"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:onClick="process"
+                android:text="GET LOCATION" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:onClick="process"
+                app:srcCompat="@drawable/southcayetano" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CAYETANO SCIENCE HIGH SCHOOL, Taguig City"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:text="GET LOCATION" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/southgardenofmemories" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GARDEN OF MEMORIES, Pateros"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:onClick="process"
+                android:text="GET LOCATION" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/southmakaticomplex" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MAKATI COMPLEX, Makati City"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:onClick="process"
+                android:text="GET LOCATION" />
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/southparanaquecityhall" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PARANAQUE CITY HALL, Paranaque City"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:onClick="process"
+                android:text="GET LOCATION" />
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/southsunkengarden" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SUNKEN GARDEN, Muntinlupa City"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:onClick="process"
+                android:text="GET LOCATION" />
+
+            <ImageView
+                android:id="@+id/imageView28"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/southvillamor" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VILLAMOR AIRBASE, Pasay"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:onClick="process"
+                android:text="GET LOCATION" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

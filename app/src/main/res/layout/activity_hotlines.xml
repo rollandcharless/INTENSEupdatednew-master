@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    tools:context=".Hotlines">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="match_parent"
+                android:layout_height="111dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.511"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.067"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="EMERGENCY HOTLINES IN CASE OF EARTHQUAKE"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NATIONAL EMERGENCY HOTLINE: 911"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                tools:layout_marginBottom="20dp"
+                tools:layout_marginTop="30dp" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trunklines:  911-5061 to 65"
+                tools:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Operations Center:  (02)911-1406, (02)912-2665, (02)912-5668, (02) 911-1873"
+                tools:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Red Cross"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                tools:layout_marginTop="20dp" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hotline:  143, (02) 527-0000, (02) 527-8385 to 95"
+                tools:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Disaster Management Office:  134 (Staff), 132 (Manager), 133 (Radio Room)"
+                tools:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Philippine National Police (PNP)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                tools:layout_marginTop="20dp" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hotline:  117"
+                tools:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Text hotline:  0917-847-5757"
+                tools:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bureau of Fire Protection (BFP)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                tools:layout_marginTop="20dp" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Direct line:  (02) 426-0219, (02) 426-3812, (02)426-0246"
+                tools:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Department of Transportation and Communications (DOTC)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                tools:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hotline 7890"
+                tools:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directline (02) 726-6255"
+                tools:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Metro Manila Development Authority (MMDA)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                tools:paddingTop="20dp" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trunkline: (02) 882-4151-77 loc. 337 (rescue), 255 (Metrobase)"
+                tools:paddingTop="10dp" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hotline 136" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="National Disaster Risk Reduction and Management Council (NDRRMC)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                tools:layout_marginTop="20dp" />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hotlines (02) 911-1406, (02) 912-2665, (02) 912-5668, (02) 911-1873"
+                tools:layout_marginBottom="20dp"
+                tools:layout_marginTop="10dp" />
+
+            <ImageView
+                android:id="@+id/imageView35"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:clickable="true"
+                android:onClick="home"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.501"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.982"
+                app:srcCompat="@drawable/home" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
