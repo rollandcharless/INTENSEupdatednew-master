@@ -78,21 +78,17 @@ public class Main3Activity extends AppCompatActivity {
 
     public void process (View v){
         Intent i=null, chooser=null;
-        if (v.getId() == R.id.imageView4){
+        if (v.getId() == R.id.button25){
             i = new Intent(this, Main4Activity.class);
             Evac(v);
             startActivity(i);
-        } else if (v.getId() == R.id.imageView6){
+        } else if (v.getId() == R.id.button26){
             i = new Intent(this, SafetyTips.class);
             T(v);
             startActivity(i);
-        }   else if (v.getId() == R.id.imageView7){
+        }   else if (v.getId() == R.id.button27){
             i = new Intent(this, Hotlines.class);
             H(v);
-            startActivity(i);
-        }else if (v.getId() == R.id.imageView8){
-            i = new Intent(this, Main3Activity.class);
-            Home(v);
             startActivity(i);
         }
 

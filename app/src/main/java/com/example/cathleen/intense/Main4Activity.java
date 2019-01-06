@@ -72,7 +72,7 @@ public class Main4Activity extends AppCompatActivity {
         }   else if (v.getId() == R.id.button6){
             i = new Intent(this, WestQ.class);
             startActivity(i);
-        }else if (v.getId() == R.id.imageView9){
+        }else if (v.getId() == R.id.button28){
             i = new Intent(this, Main3Activity.class);
             startActivity(i);
         }

@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void process (View v){
         Intent i=null, chooser=null;
-        if (v.getId() == R.id.imageView3){
+        if (v.getId() == R.id.button24){
             i = new Intent(this, Main2Activity.class);
             showMess(v);
             startActivity(i);
